@@ -6,6 +6,7 @@ namespace demo_jwt.Interfaces
     public interface IUserService
     {
         UserAuthenticatedModel AuthenticateUser(UserLoginModel userLoginModel);
+
         IEnumerable<User> GetUsers();
     }
 }
